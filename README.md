@@ -43,7 +43,7 @@ import matplotlib.pyplot as plt
 ### Step 2:
 Read the image `Spiderman.jpg` in grayscale format.
 ```
-gray = cv2.imread('Spiderman.PNG', cv2.IMREAD_GRAYSCALE)
+gray = cv2.imread('n14.jpeg', cv2.IMREAD_GRAYSCALE)
 ```
 
 ### Step 3:
@@ -97,7 +97,7 @@ plt.show()
 ### Step 6:
 Read the same image in color format.
 ```
-img = cv2.imread('Spiderman.PNG')
+img = cv2.imread('n14.jpeg')
 
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.title('Original Color Image')
